@@ -249,7 +249,7 @@ section {
   display: block;
   font-size: 4rem;
   color: var(--light-purple);
-  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   animation: comeLeft 0.8s linear backwards;
 }
 
@@ -257,7 +257,7 @@ section {
   font-size: 8rem;
   font-family: var(--title-font);
   color: var(--light-purple);
-  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
   animation: comeLeft 0.8s linear backwards;
   animation-delay: 0.8s;
