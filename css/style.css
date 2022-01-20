@@ -248,19 +248,17 @@ section {
 .home .slide .content span {
   display: block;
   font-size: 4rem;
-  color: var(--dark-color);
+  color: var(--light-purple);
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  /* -webkit-animation: fadeIn 0.2s linear backwards; */
   animation: comeLeft 0.8s linear backwards;
 }
 
 .home .slide .content h3 {
   font-size: 8rem;
   font-family: var(--title-font);
-  color: var(--dark-color);
+  color: var(--light-purple);
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
-  /* -webkit-animation: fadeIn 0.2s linear backwards 0.4s; */
   animation: comeLeft 0.8s linear backwards;
   animation-delay: 0.8s;
 }
@@ -333,11 +331,8 @@ section {
 .about .content .box {
   max-width: 102rem;
   padding: 3rem;
-  /* border-radius: 1.5rem; */
   background: var(--dark-color);
   box-shadow: 0 0 2em black;
-  /* display: flex;
-  justify-content: space-around; */
   transform: skewX(-12deg);
 }
 
