@@ -251,7 +251,7 @@ section {
   color: var(--dark-color);
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   /* -webkit-animation: fadeIn 0.2s linear backwards; */
-  animation: comeLeft 0.5s linear backwards;
+  animation: comeLeft .8s linear backwards;
 }
 
 .home .slide .content h3 {
@@ -261,8 +261,8 @@ section {
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   /* -webkit-animation: fadeIn 0.2s linear backwards 0.4s; */
-  animation: comeLeft 0.5s linear backwards 0.4s;
-  animation-delay: 0.5s;
+  animation: comeLeft .8s linear backwards;
+  animation-delay: .8s;
 }
 
 .home .slide .content .btn {
@@ -890,6 +890,11 @@ section {
     display: block;
     font-size: 2rem;
     margin: 3rem 1rem;
+  }
+
+  .about .box .image img {
+    width: 15rem;
+    box-shadow: 1rem 1rem 0 var(--medium-purple2);;
   }
 }
 
