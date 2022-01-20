@@ -108,6 +108,18 @@ section {
   }
 }
 
+@keyframes floating {
+  0% {
+    transform: translateY(-1rem);
+  }
+  50% {
+    transform: translateY(1rem) scale(1.1);
+  }
+  100% {
+    transform: translateY(-1rem);
+  }
+}
+
 .header {
   position: -webkit-sticky;
   position: sticky;
@@ -243,6 +255,10 @@ section {
 .home .slide .content {
   margin: auto;
   text-align: center;
+}
+
+.home .slide .content:hover {
+  animation: floating 2s linear infinite;
 }
 
 .home .slide .content span {
