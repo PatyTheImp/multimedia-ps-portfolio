@@ -554,9 +554,6 @@ section {
 }
 
 .gallery .box-container .box:hover .content {
-  /* display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; */
   opacity: 100%;
 }
 
@@ -565,6 +562,7 @@ section {
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  object-position: 50% 0;
   transition: all 1s;
 }
 
@@ -601,6 +599,7 @@ section {
 .gallery .box-container .box .content h3 {
   font-size: 2rem;
   color: var(--dark-color);
+  text-transform: uppercase;
 }
 
 .gallery .box-container .box:hover .content h3 {

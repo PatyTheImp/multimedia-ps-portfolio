@@ -7,3 +7,4 @@ const toggleMenu = function () {
 };
 
 menuBtn.addEventListener("click", toggleMenu);
+
