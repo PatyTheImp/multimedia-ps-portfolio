@@ -596,7 +596,7 @@ section {
 
 .gallery .box-container .box .content p {
   font-size: 1.4rem;
-  color: var(--light-purple);
+  color: var(--dark-color);
   padding: 1rem 0;
   line-height: 2;
   -webkit-animation: fadeIn 0.2s linear backwards 0.4s;
@@ -927,6 +927,11 @@ section {
 
 .modal-container .modal-text {
   display: none;
+}
+
+.modal-container .modal-text .title {
+  padding-bottom: 0;
+  padding-top: 2rem;
 }
 
 .hidden {
