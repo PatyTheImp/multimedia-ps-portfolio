@@ -84,19 +84,19 @@
       <div class="box-container">
         <div class="box">
           <img src="./imagens/gallery-img-legato.jpg" alt="le gato" />
-          <div class="content">
+          <div class="content" data-title="Le Gato" data-img="legato">
             <h3>LE GATO</h3>
           </div>
         </div>
         <div class="box">
           <img src="./imagens/gallery-img-sombra.jpg" alt="shadow" />
-          <div class="content">
+          <div class="content" data-title="Shadow" data-img="sombra">
             <h3>SHADOW</h3>
           </div>
         </div>
         <div class="box">
           <img src="./imagens/gallery-img-dali.jpg" alt="dali" />
-          <div class="content">
+          <div class="content" data-title="Dali" data-img="dali">
             <h3>DALI</h3>
           </div>
         </div>
@@ -105,31 +105,35 @@
             src="./imagens/gallery-img-black_and_white.jpg"
             alt="black n white"
           />
-          <div class="content">
+          <div
+            class="content"
+            data-title="Black & White"
+            data-img="black_and_white"
+          >
             <h3>BLACK & WHITE</h3>
           </div>
         </div>
         <div class="box">
           <img src="./imagens/gallery-img-olho_illuminati.jpg" alt="eye" />
-          <div class="content">
+          <div class="content" data-title="Eye" data-img="olho_illuminati">
             <h3>EYE</h3>
           </div>
         </div>
         <div class="box">
           <img src="./imagens/gallery-img-agua.jpg" alt="water" />
-          <div class="content">
+          <div class="content" data-title="Water" data-img="agua">
             <h3>WATER</h3>
           </div>
         </div>
         <div class="box">
           <img src="./imagens/gallery-img-popart_meu_gato.jpg" alt="pop art" />
-          <div class="content">
+          <div class="content" data-title="Pop Art" data-img="popart_meu_gato">
             <h3>POP ART</h3>
           </div>
         </div>
         <div class="box">
           <img src="./imagens/gallery-img-stuart.jpg" alt="stuart" />
-          <div class="content">
+          <div class="content" data-title="Stuart" data-img="stuart">
             <h3>STUART</h3>
           </div>
         </div>
@@ -138,13 +142,17 @@
             src="./imagens/gallery-img-crop-straighten.jpg"
             alt="crop straighten"
           />
-          <div class="content">
+          <div
+            class="content"
+            data-title="Crop and Straighten"
+            data-img="crop-straighten"
+          >
             <h3>crop and straighten</h3>
           </div>
         </div>
         <div class="box">
           <img src="./imagens/gallery-img-selection.jpg" alt="selections" />
-          <div class="content">
+          <div class="content" data-title="Selections" data-img="selection">
             <h3>selections</h3>
           </div>
         </div>
@@ -153,7 +161,11 @@
             src="./imagens/gallery-img-AutoColor.jpg"
             alt="color corrections"
           />
-          <div class="content">
+          <div
+            class="content"
+            data-title="Color Corrections"
+            data-img="AutoColor"
+          >
             <h3>color corrections</h3>
           </div>
         </div>
@@ -162,41 +174,65 @@
             src="./imagens/gallery-img-color-ajustments.jpg"
             alt="color adjustments"
           />
-          <div class="content">
+          <div
+            class="content"
+            data-title="Color Adjustments"
+            data-img="color-ajustments"
+          >
             <h3>color adjustments</h3>
           </div>
         </div>
         <div class="box">
           <img src="./imagens/gallery-img-grayscale.jpg" alt="grayscale" />
-          <div class="content">
+          <div class="content" data-title="Grayscale" data-img="grayscale">
             <h3>grayscale</h3>
           </div>
         </div>
         <div class="box">
           <img src="./imagens/gallery-img-composition.jpg" alt="composition" />
-          <div class="content">
+          <div class="content" data-title="Composition" data-img="composition">
             <h3>composition</h3>
           </div>
         </div>
         <div class="box">
           <img src="./imagens/gallery-img-layers.jpg" alt="layers" />
-          <div class="content">
+          <div class="content" data-title="Layers" data-img="layers">
             <h3>layers</h3>
           </div>
         </div>
         <div class="box">
           <img src="./imagens/gallery-img-sky.jpg" alt="sky replacement" />
-          <div class="content">
+          <div class="content" data-title="Sky Replacement" data-img="sky">
             <h3>sky replacement</h3>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- footer section -->
     <section class="footer">
       <div class="credit">
         Criado por <span>Paty Costa</span> - 2021 - Direitos Reservados
       </div>
     </section>
+
+    <!-- modal -->
+    <div class="modal scaledDown">
+      <button class="close-modal">&times;</button>
+      <div class="modal-container">
+        <img
+          class="modal-img"
+          src="./imagens/gallery-img-sky.jpg"
+          alt="image"
+        />
+        <h2 class="title modal-title"></h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro
+          incidunt hic sed itaque dolorum ipsa, nobis dicta atque sequi tenetur
+          saepe praesentium eos eligendi consequuntur et esse ut aperiam. Quas?
+        </p>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
   </body>
 </html>
