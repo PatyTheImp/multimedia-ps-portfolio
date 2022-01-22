@@ -906,13 +906,27 @@ section {
   max-height: 80vh;
 }
 
-.modal-container .modal-text {
+.modal-container .modal-img {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.modal-container .modal-img-old {
+  position: absolute;
+  top: 4rem;
+  left: 3rem;
+}
+
+.modal-container .modal-img-footer {
+  color: var(--light-purple);
+  font-size: 1.5rem;
+  text-align: center;
   display: none;
 }
 
-.modal-container .modal-text p {
-  color: var(--light-color);
-  font-size: 1.7rem;
+.modal-container .modal-text {
+  display: none;
 }
 
 .hidden {
@@ -928,6 +942,15 @@ section {
 @media (hover: none) {
   .modal-container .modal-text {
     display: block;
+  }
+
+  .modal-container .modal-text .modal-description {
+    color: var(--light-color);
+    font-size: 1.7rem;
+  }
+
+  .modal-container .modal-text .modal-title {
+    text-transform: uppercase;
   }
 }
 
