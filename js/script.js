@@ -18,13 +18,11 @@ const openModal = function (e) {
   const clicked = e.target.closest(".content");
   modalTitle.innerHTML = clicked.dataset.title;
   modalImg.src = `./imagens/gallery-img-${clicked.dataset.img}.jpg`;
-//   modal.classList.remove("hidden");
   modal.classList.remove("scaledDown");
   overlay.classList.remove("hidden");
 };
 
 const closeModal = function () {
-//   modal.classList.add("hidden");
   modal.classList.add("scaledDown");
   overlay.classList.add("hidden");
 };
