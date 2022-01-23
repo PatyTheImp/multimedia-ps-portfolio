@@ -848,11 +848,8 @@ section {
 }
 
 .footer .box-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit];
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .footer .box-container .box h3 {
@@ -861,11 +858,17 @@ section {
   padding: 1rem 0;
 }
 
-.footer .box-container .box .link {
+.footer .box-container .link {
   padding: 1rem 0;
-  font-size: 1.4rem;
-  color: var(--medium-purple3);
+  font-size: 4rem;
+  color: var(--light-purple);
   display: block;
+  margin-right: 3rem;
+}
+
+.footer .box-container .link:hover {
+  color: var(--medium-purple2);
+  transform: scale(1.2) translateY(-0.5rem);
 }
 
 .footer .box-container .box .link i {
@@ -923,9 +926,9 @@ section {
   padding: 1rem;
   padding-top: 3rem;
   margin-top: 3rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-top: 0.2rem solid var(--light-purple);
-  color: var(--medium-purple3);
+  color: var(--light-purple);
 }
 
 .footer .credit span {
